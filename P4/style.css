@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .android-compact .div {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .text-wrapper {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .p {
+    margin-bottom: 20px;
+  }
+  
+  .text-wrapper-2,
+  .text-wrapper-4,
+  .text-wrapper-5,
+  .text-wrapper-6,
+  .text-wrapper-7,
+  .text-wrapper-8,
+  .text-wrapper-9 {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .rectangle,
+  .rectangle-2,
+  .rectangle-3,
+  .rectangle-4,
+  .rectangle-5 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .overlap-group {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button.text-wrapper-10 {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button.text-wrapper-10:hover {
+    background-color: #45a049;
+  }
+  
