@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <!-- Output aplikasi dalam bentuk Windows executable -->
+    <OutputType>WinExe</OutputType>
+
+    <!-- Gunakan target framework .NET 9 dengan dukungan Windows -->
+    <TargetFramework>net9.0-windows</TargetFramework>
+
+    <!-- Aktifkan fitur Windows Forms -->
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <!-- Aktifkan dukungan file sumber otomatis -->
+    <EnableDefaultItems>true</EnableDefaultItems>
+
+    <!-- Buat file .pdb untuk debugging -->
+    <DebugType>portable</DebugType>
+
+    <!-- Jalankan aplikasi dalam mode release/debug -->
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+
+    <!-- Aktifkan nullable reference types (bisa dihapus jika belum dibutuhkan) -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Tambahan referensi ke package eksternal jika perlu -->
+  <ItemGroup>
+    <!-- Pastikan Anda telah install MySql.Data di NuGet -->
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+  </ItemGroup>
+
+</Project>
