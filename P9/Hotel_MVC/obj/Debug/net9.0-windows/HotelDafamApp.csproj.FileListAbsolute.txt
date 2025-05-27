@@ -1,0 +1,5 @@
+C:\PEMVIS\Hotel_MVC\obj\Debug\net9.0-windows\HotelDafamApp.csproj.AssemblyReference.cache
+C:\PEMVIS\Hotel_MVC\obj\Debug\net9.0-windows\HotelDafamApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\PEMVIS\Hotel_MVC\obj\Debug\net9.0-windows\HotelDafamApp.AssemblyInfoInputs.cache
+C:\PEMVIS\Hotel_MVC\obj\Debug\net9.0-windows\HotelDafamApp.AssemblyInfo.cs
+C:\PEMVIS\Hotel_MVC\obj\Debug\net9.0-windows\HotelDafamApp.csproj.CoreCompileInputs.cache
