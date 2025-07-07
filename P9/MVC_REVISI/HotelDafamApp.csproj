@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- File Utama -->
+    <Compile Include="Program.cs" />
+    
+    <!-- Models -->
+    <Compile Include="Models\Koneksi.cs" />
+    <Compile Include="Models\Tamu.cs" />
+    <Compile Include="Models\User.cs" />
+    
+    <!-- Controllers -->
+    <Compile Include="Controllers\TamuController.cs" />
+    <Compile Include="Controllers\ReportController.cs" />
+    <Compile Include="Controllers\AuthController.cs" />
+    
+    <!-- Views Utama -->
+    <Compile Include="Views\MainView.cs" />
+    <Compile Include="Views\MainView.Designer.cs" />
+    <Compile Include="Views\ReportView.cs" />
+    <Compile Include="Views\ReportView.Designer.cs" />
+    <Compile Include="Views\ThankYouView.cs" />
+    <Compile Include="Views\ThankYouView.Designer.cs" />
+    
+    <!-- Views Login/Register -->
+    <Compile Include="Views\LoginView.cs" />
+    <Compile Include="Views\LoginView.Designer.cs" />
+    <Compile Include="Views\RegisterView.cs" />
+    <Compile Include="Views\RegisterView.Designer.cs" />
+  </ItemGroup>
+</Project>
